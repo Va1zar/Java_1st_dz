@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class calculator {
     public static void main(String[] args) {
-        String a = "111";
-        System.out.print(a.equals("111"));
         Scanner in = new Scanner(System.in);
         System.out.print("Введите первое число : ");
         int first_number = in.nextInt();
